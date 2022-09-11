@@ -1,0 +1,5 @@
+This script take a list of names and formats it to 'last name, first name'.
+This name formatting can be ran against an SQL database.
+Important to Note:
+1. The full name must be in an excel speadsheet under one column. If Firstname/ Lastname is in separate columns then the script will need to be modified. 
+2. The pandas library will need to be installed.
