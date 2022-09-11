@@ -3,7 +3,7 @@ from posixpath import split
 import pandas
 
 
-cms_file = pandas.read_excel(r'C:\Users\eperry\Downloads\CMS Name check\FDN Uniform Clearance - 8.18.22.xlsx')
+cms_file = pandas.read_excel(r'C:\Users\username\Downloads\exceldocument')
 cms_file['Name'] = cms_file['Name'].str.replace(r"[\"\',]", '')
 cms_names = cms_file['Name'].tolist()
 
