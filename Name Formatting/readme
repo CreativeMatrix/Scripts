@@ -1,9 +1,9 @@
 This script take a list of names and formats it to 'last name, first name'. 
 
-Example input: Mark J Twain Jr
-               John P Wilson
-               Tom Anderson
-        Output: 'Twain, Mark"
+Example: input: Mark J Twain Jr
+                John P Wilson
+                Tom Anderson
+        Output: 'Twain, Mark'
                 'Wilson, John'
                 'Anderson, Tom'
                 
